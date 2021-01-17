@@ -19,9 +19,9 @@ namespace MordhauSuggestionGenerator
 
             } catch (Exception e)
             {
-                Console.WriteLine("\n write a number, idiot, that's all you have to do.");
-                Console.WriteLine("\nPress k to exit.");
+                Console.WriteLine("\nwrite a number, idiot, that's all you have to do.");
                 Console.WriteLine("\nAlso here is your shit exception: " + "\n" + e);
+                Console.WriteLine("\nPress k to exit.");
                 if (Console.ReadKey().Key == ConsoleKey.K)
                 {
                     Environment.Exit(0);
