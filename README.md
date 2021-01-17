@@ -7,6 +7,6 @@
 - Fix the game.
 
 ## How to use:
-- Clone the repo and run.
- or
+- Clone the repo and run it.
+#### or
 - Download the release build and run the executable in it.
