@@ -11,7 +11,8 @@ namespace MordhauSuggestionGenerator
             "Change",
             "Set",
             "Adjust",
-            "Revert"
+            "Revert",
+            "Force"
         };
 
         public string WriteShitpost()
