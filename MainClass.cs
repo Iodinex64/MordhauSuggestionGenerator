@@ -16,6 +16,11 @@ namespace MordhauSuggestionGenerator
                     BullshitBuilder b = new BullshitBuilder();
                     Console.WriteLine(b.WriteShitpost());
                 }
+                Console.WriteLine("\nPress k to exit.");
+                if (Console.ReadKey().Key == ConsoleKey.K)
+                {
+                    Environment.Exit(0);
+                }
 
             } catch (Exception e)
             {
