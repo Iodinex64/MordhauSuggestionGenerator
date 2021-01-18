@@ -2,7 +2,17 @@
 
 public class MeleeObject
 {
-    public string[] objects = new string[]
+	string[] suggestions = new string[]
+	{
+		"Change",
+		"Set",
+		"Adjust",
+		"Make",
+		"Buff",
+		"Nerf"
+	};
+
+	public string[] objects = new string[]
 	{
 		"Broken Longsword",
 		"Carrot",
@@ -88,4 +98,38 @@ public class MeleeObject
 		"stamina negation",
 		"stamina damage"
 	};
+
+	public string WriteShitpost()
+    {
+		Random r = new Random();
+		int a, b, c, d, e;
+		a = r.Next(0, suggestions.Length);
+		b = r.Next(0, objects.Length);
+		c = r.Next(0, properties.Length);
+		d = r.Next(0, 5);
+
+		//timings
+		if (properties[c].Contains(" ms"))
+		{
+			e = r.Next(0, 1000);
+		}
+		//lengths
+		else if (properties[c].Contains(" cm"))
+		{
+			e = r.Next(0, 200);
+		}
+		//stam or damage values
+		else
+		{
+			e = r.Next(0, 100);
+		}
+
+		//alt mode
+		string dS = "";
+		if (d == 0)
+		{
+			dS = "alt mode ";
+		}
+		return suggestions[a] + " " + dS + objects[b] + " " + properties[c] + " to " + e;
+	}
 }
