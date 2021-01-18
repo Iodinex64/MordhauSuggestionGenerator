@@ -10,3 +10,5 @@
 - Clone the repo and run it.
 #### or
 - Download the release build and run the executable in it.
+
+P.S Silverleo#0001 on discord is a really cool guy 🌝
