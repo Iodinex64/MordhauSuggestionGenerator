@@ -82,7 +82,6 @@ public class MeleeObject
 		"length in cm",
 		"wood damage",
 		"stone damage",
-		"projectile speed",
 		"damage to t0 head",
 		"damage to t0 torso",
 		"damage to t0 legs",
