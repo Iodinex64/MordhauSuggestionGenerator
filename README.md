@@ -1,7 +1,7 @@
 ## A game balanced using bots deserves equally bot-like balance suggestions.
 
 ### What it can do:
-- Generate highly intellectual suggestions for any melee weapon in Mordhau (as of patch 20)
+- Generate highly intellectual suggestions for any weapon or mechanic in Mordhau (as of patch 20)
 
 ### What it cannot do:
 - Fix the game.
