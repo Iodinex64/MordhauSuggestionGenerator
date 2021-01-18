@@ -50,7 +50,7 @@ namespace MordhauSuggestionGenerator
             "mechanic",
             "move",
             "ability",
-            "option"
+            ""
         };
 
         public string WriteShitpost()
